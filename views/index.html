@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CyberLearn Dressing Room</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="./../assets/images/cybersoft.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+                - Virtual Dressing Room
+              </h4>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav nav-pills"></ul>
+
+          <div class="well">
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    id="ao-tab"
+                    data-toggle="tab"
+                    href="#ao"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                    >Áo</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="quan-tab"
+                    data-toggle="tab"
+                    href="#quan"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                    >Quần</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="giaydep-tab"
+                    data-toggle="tab"
+                    href="#giayDep"
+                    role="tab"
+                    aria-controls="contact"
+                    aria-selected="false"
+                    >Giày Dép</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="tuiXach-tab"
+                    data-toggle="tab"
+                    href="#tuiXach"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                    >Túi Xách</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="dayChuyen-tab"
+                    data-toggle="tab"
+                    href="#dayChuyen"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                    >Dây Chuyền</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="kieuToc-tab"
+                    data-toggle="tab"
+                    href="#kieuToc"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                    >Kiểu Tóc</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="nen-tab"
+                    data-toggle="tab"
+                    href="#nen"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                    >Nền</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="ao"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/topcloth1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Top Cloth 1</h4>
+                      <button class="btn btn-info w-100" id="topcloth1">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/topcloth2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Top Cloth 2</h4>
+                      <button class="btn btn-info w-100" id="topcloth2">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/topcloth3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Top Cloth 3</h4>
+                      <button class="btn btn-info w-100" id="topcloth3">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/topcloth4_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Top Cloth 4</h4>
+                      <button class="btn btn-info w-100" id="topcloth4">
+                        Thử đồ
+                      </button>
+                    </div>
+                  </div>
+                  <div class="bootom d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/topcloth5_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Top Cloth 5</h4>
+                      <button class="btn btn-info w-100" id="topcloth5">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/topcloth6_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Top Cloth 6</h4>
+                      <button class="btn btn-info w-100" id="topcloth6">
+                        Thử đồ
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="quan"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/botcloth1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Bot Cloth 1</h4>
+                      <button class="btn btn-info w-100" id="botcloth1">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/botcloth2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Bot Cloth 2</h4>
+                      <button class="btn btn-info w-100" id="botcloth2">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/botcloth3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Bot Cloth 3</h4>
+                      <button class="btn btn-info w-100" id="botcloth3">
+                        Thử đồ
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/botcloth4_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Bot Cloth 4</h4>
+                      <button class="btn btn-info w-100" id="botcloth4">
+                        Thử đồ
+                      </button>
+                    </div>
+                  </div>
+                  <div class="bootom d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/clothes/botcloth5_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Bot Cloth 5</h4>
+                      <button class="btn btn-info w-100" id="botcloth5">
+                        Thử đồ
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="giayDep"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/shoes/shoes1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Shoes 1</h4>
+                      <button class="btn btn-info w-100" id="shoes1">
+                        Thử giày
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/shoes/shoes2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Shoes 2</h4>
+                      <button class="btn btn-info w-100" id="shoes2">
+                        Thử giày
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/shoes/shoes3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Shoes 3</h4>
+                      <button class="btn btn-info w-100" id="shoes3">
+                        Thử giày
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/shoes/shoes4_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Shoes 4</h4>
+                      <button class="btn btn-info w-100" id="shoes4">
+                        Thử giày
+                      </button>
+                    </div>
+                  </div>
+                  <div class="bootom d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/shoes/shoes5_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Shoes 5</h4>
+                      <button class="btn btn-info w-100" id="shoes5">
+                        Thử giày
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="tuiXach"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/handbag/handbag1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">handbag 1</h4>
+                      <button class="btn btn-info w-100" id="handbag1">
+                        Thử túi
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/handbag/handbag2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">handbag 2</h4>
+                      <button class="btn btn-info w-100" id="handbag2">
+                        Thử túi
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/handbag/handbag3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">handbag 3</h4>
+                      <button class="btn btn-info w-100" id="handbag3">
+                        Thử túi
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="dayChuyen"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/necklace/necklace1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Necklace 1</h4>
+                      <button class="btn btn-info w-100" id="necklace1">
+                        Thử vòng
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/necklace/necklace2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Necklace 2</h4>
+                      <button class="btn btn-info w-100" id="necklace2">
+                        Thử vòng
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/necklace/necklace3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Necklace 3</h4>
+                      <button class="btn btn-info w-100" id="necklace3">
+                        Thử vòng
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="kieuToc"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/hairstyle/hairstyle1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Hairstyle 1</h4>
+                      <button class="btn btn-info w-100" id="hairstyle1">
+                        Thử tóc
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/hairstyle/hairstyle2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Hairstyle 2</h4>
+                      <button class="btn btn-info w-100" id="hairstyle2">
+                        Thử tóc
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/hairstyle/hairstyle3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Hairstyle 3</h4>
+                      <button class="btn btn-info w-100" id="hairstyle3">
+                        Thử tóc
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nen"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                >
+                  <div class="top d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background1_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 1</h4>
+                      <button class="btn btn-info w-100" id="background1">
+                        Thay Background
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background2_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 2</h4>
+                      <button class="btn btn-info w-100" id="background2">
+                        Thay Background
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background3_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 3</h4>
+                      <button class="btn btn-info w-100" id="background3">
+                        Thay Background
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background4_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 4</h4>
+                      <button class="btn btn-info w-100" id="background4">
+                        Thay Background
+                      </button>
+                    </div>
+                  </div>
+                  <div class="bootom d-flex p-3">
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background5_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 5</h4>
+                      <button class="btn btn-info w-100" id="background5">
+                        Thay Background
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background6_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 6</h4>
+                      <button class="btn btn-info w-100" id="background6">
+                        Thay Background
+                      </button>
+                    </div>
+                    <div class="tab__item mr-5">
+                      <img
+                        src="../assets/images/background/background7_show.jpg"
+                        alt=""
+                      />
+                      <h4 class="text-center">Background 7</h4>
+                      <button class="btn btn-info w-100" id="background7">
+                        Thay Background
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contain">
+            <div class="body"></div>
+            <div class="model"></div>
+            <div class="hairstyle"></div>
+            <div class="necklace"></div>
+            <div class="bikinitop"></div>
+            <div class="bikinibottom"></div>
+            <div class="handbag"></div>
+            <div class="feet"></div>
+            <div class="background"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./../models/ListChosen.js"></script>
+    <script src="./../models/ChoseItem.js"></script>
+    <script src="./../utils/callData.js"></script>
+    <script src="./../controllers/main.js"></script>
+  </body>
+</html>
